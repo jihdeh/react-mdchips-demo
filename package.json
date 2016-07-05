@@ -1,37 +1,44 @@
 {
-  "name": "react-webpack-babel",
-  "version": "0.0.2",
-  "description": "React Webpack Babel Starter Kit",
+  "name": "react-mdchips-demo",
+  "version": "1.0.0",
+  "description": "A simple react input material design chips tool",
   "main": "''",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production webpack -p --config webpack.production.config.js --progress --profile --colors",
     "dev": "webpack-dev-server --progress --profile --colors --hot"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alicoding/react-webpack-babel"
+    "url": "git+https://github.com/jihdeh/react-mdInputChips.git"
   },
   "keywords": [
     "React",
-    "Webpack",
-    "Babel",
-    "Starter",
-    "template"
+    "Material",
+    "Design",
+    "Chips",
+    "Input",
+    "Chips",
+    "Tags"
   ],
-  "author": "Ali Al Dallal",
+  "author": "Jihdeh Fowotade",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alicoding/react-webpack-babel/issues"
+    "url": "https://github.com/jihdeh/react-mdInputChips/issues"
   },
-  "homepage": "https://github.com/alicoding/react-webpack-babel#readme",
+  "homepage": "https://github.com/jihdeh/react-mdInputChips#readme",
   "dependencies": {
     "bootstrap": "3.3.5",
     "json-loader": "^0.5.4",
     "json5-loader": "^0.6.0",
     "jsx-loader": "^0.13.2",
+    "materialize-css": "^0.97.6",
     "node-libs-browser": "1.0.0",
     "react": "15.0.1",
-    "react-dom": "15.0.1"
+    "react-dom": "15.0.1",
+    "react-mdchips": "^1.0.1"
   },
   "devDependencies": {
     "babel-core": "6.7.7",

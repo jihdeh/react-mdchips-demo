@@ -1,8 +1,7 @@
-# react-webpack-babel
-Simple React Webpack Babel Starter Kit
+# react-mdchips-demo
 
 
-This is a simple [React](https://facebook.github.io/react/), [Webpack](http://webpack.github.io/) and [Babel](https://babeljs.io/) application with nothing else in it.
+This is a simple demo for react-mdchips
 
 ### What's in it?
 
@@ -14,7 +13,7 @@ Just a simple [index.jsx](./index.jsx), [webpack.config.js](./webpack.config.js)
 * Fork and clone the project:
 
 ```
-> $ git clone https://github.com/alicoding/react-webpack-babel.git
+> $ git clone git@github.com:jihdeh/react-mdchips-demo.git
 ```
 
 Then install the dependencies:
@@ -43,4 +42,4 @@ If you want to run with webpack-dev-server simply run this command:
 
 Open the web browser to `http://localhost:8080/`
 
-Please contribute to the project if you think this can be done better in anyway even for this README :)
+[Starter kit](https://github.com/alicoding/react-webpack-babel.git)
